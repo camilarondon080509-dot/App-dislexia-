@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    word-spacing: 0.12em;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Dyslexia reading styles and color overlays */
+.font-lexend {
+  font-family: 'Lexend', sans-serif;
+}
+
+.font-fredoka {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.font-comic {
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+/* High readability letter spacing option */
+.reading-spaced {
+  letter-spacing: 0.08em;
+  word-spacing: 0.22em;
+  line-height: 2;
+}
+
+/* Visual guide / reading ruler effect */
+.reading-guide-line {
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.45);
+}
+
+/* Smooth playful pulse */
+@keyframes gentle-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-gentle {
+  animation: gentle-bounce 2.5s infinite ease-in-out;
+}
+
+/* Syllable badges */
+.syllable-highlight-1 {
+  background-color: #FEF08A; /* soft yellow */
+  color: #854D0E;
+}
+.syllable-highlight-2 {
+  background-color: #BAE6FD; /* soft blue */
+  color: #0369A1;
+}
+.syllable-highlight-3 {
+  background-color: #BBF7D0; /* soft green */
+  color: #166534;
+}

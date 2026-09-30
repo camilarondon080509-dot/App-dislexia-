@@ -1,0 +1,6 @@
+{
+  "name": "LumiAprende - Aventuras Inclusivas para Niños",
+  "description": "Aplicación educativa interactiva, inclusiva y adaptativa para niños en edad escolar con dislexia. Aprende lengua, matemáticas, ciencias, sociales, inglés y neuro-entrenamiento multisensorial con audio, reconocimiento de voz y gamificación.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
